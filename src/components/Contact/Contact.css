@@ -1,0 +1,32 @@
+#contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 4rem;
+  height: 100vh;
+  text-align: center;
+  background-color: rgb(123, 131, 241);
+  color: var(--white);
+}
+
+.resume-btn {
+  border: 3px solid rgb(170, 175, 247);
+  border-radius: 20px 20px 20px 20px;
+  width: 30%;
+  padding: 5px;
+}
+.resume-btn:hover {
+  background-color: rgb(170, 175, 247);
+  color: var(--dark-blue);
+  transition: 0.5s ease-in;
+}
+
+.icons-a i {
+  color: var(--text-color-lightmode);
+  padding-right: 1rem;
+  margin-top: 25px;
+}
+.icons-a:hover {
+  color: var(--dark-blue);
+  transition: all 0.8s ease-in;
+}

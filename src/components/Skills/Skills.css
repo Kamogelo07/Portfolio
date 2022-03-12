@@ -1,0 +1,24 @@
+#skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 4rem;
+  height: 100vh;
+  text-align: center;
+  background-color: rgb(170, 175, 247);
+  color: var(--white);
+}
+
+.grid-skills {
+  /* height: 40vh; height to 100vh when adding more projects */
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  align-content: center;
+  justify-content: space-evenly;
+}
+
+.grid-skills-child:hover {
+  color: var(--dark-blue);
+  transition: 0.5s ease-in;
+}

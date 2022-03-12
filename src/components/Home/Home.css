@@ -1,0 +1,24 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 4rem;
+  height: 100vh;
+  text-align: center;
+  align-content: center;
+  background-color: rgb(170, 175, 247);
+  color: var(--white);
+}
+
+.profile-details-name {
+  margin-top: 30px;
+}
+
+.primary-text,
+.profile-role-tagline {
+  font-size: 40px;
+}
+
+.highlighted-text {
+  color: var(--dark-blue);
+}

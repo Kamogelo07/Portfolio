@@ -1,0 +1,44 @@
+#projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 4rem;
+  height: 100vh;
+  align-content: center;
+  background-color: rgb(123, 131, 241);
+  color: var(--white);
+}
+
+.grid-projects {
+  /* height: 40vh; height to 100vh when adding more projects */
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  align-content: center;
+  justify-content: space-evenly;
+}
+/* 
+     display: "grid",
+     gridTemplateColumns: "repeat(3, 1fr)",
+     gridGap: 20, */
+
+.grid-child {
+  width: 230px;
+  height: 325px;
+  margin-left: 15px;
+  margin-top: 15px;
+  padding: 1rem;
+  box-shadow: 15px 10px 30px 1px #2d3fe4;
+}
+
+.grid-child:hover {
+  color: var(--dark-blue);
+  transition: 0.5s ease-in;
+}
+
+/* Media Queries for responsiveness */
+/* @media screen and (max-width: 878px) {
+  .grid-projects {
+    display: flex;
+  }
+} */

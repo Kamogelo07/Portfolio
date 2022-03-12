@@ -1,0 +1,133 @@
+.nav-container {
+  position: fixed;
+  z-index: 3;
+  width: 100%;
+  height: 70px;
+}
+
+.menu-nav-default {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 0;
+  padding: 1rem;
+  position: fixed;
+  z-index: 3;
+  width: 100%;
+  background-color: rgb(110, 118, 233);
+  color: aliceblue;
+  height: 70px;
+  list-style: none;
+}
+/* 
+.menu-nav-default > a:nth-child(2) {
+  
+  color: red;
+} */
+
+.menu-nav-default > a:hover {
+  transition: 0.5s ease-in;
+  color: var(--dark-blue);
+}
+
+.nav-btn {
+  position: absolute;
+  z-index: 700;
+  right: 35px;
+  top: 35px;
+  cursor: pointer;
+  /* background: black; */
+  visibility: hidden;
+}
+
+.btn-line {
+  width: 28px;
+  height: 3px;
+  margin: 0 0 5px 0;
+  background-color: rgb(227, 236, 243);
+}
+
+.btn-cross {
+  position: absolute;
+  z-index: 10;
+  right: 35px;
+  top: 35px;
+  cursor: pointer;
+  /* background-color: rgb(7, 50, 87); */
+  transform: rotate(0.5turn);
+}
+
+.btn-cross .btn-line:nth-child(1) {
+  transform: rotate(0.38turn) translate(10px, -12px);
+}
+
+.btn-cross .btn-line:nth-child(2) {
+  opacity: 0; /*hide second line*/
+}
+
+.btn-cross .btn-line:nth-child(3) {
+  transform: rotate(0.62turn);
+}
+
+/* Menu Ovelerlay */
+.menu-hide {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  visibility: hidden;
+}
+
+.menu-show {
+  visibility: visible;
+  opacity: 0.9;
+}
+
+.menu-nav,
+.nav-branding {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  float: left;
+  width: 50%;
+  height: 100vh;
+  overflow: hidden;
+  opacity: 0.9;
+  font-size: x-large;
+  color: aliceblue;
+}
+
+.menu-nav > li:hover {
+  transition: 0.5s ease-in;
+  color: var(--dark-blue);
+}
+
+.menu-nav {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(110, 118, 233);
+  list-style: none;
+}
+
+.nav-link {
+  display: inline-block;
+  position: relative;
+  font-size: 30px;
+  text-transform: uppercase;
+  padding: 1rem 0;
+  font-weight: 300;
+  color: rgb(0, 0, 0);
+}
+
+.nav-link:hover {
+  color: #fff;
+}
+
+/* Media Queries for responsiveness */
+@media screen and (max-width: 500px) {
+  .nav-btn {
+    visibility: visible;
+  }
+  .menu-nav-default a {
+    visibility: hidden;
+  }
+}
