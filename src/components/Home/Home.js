@@ -32,7 +32,7 @@ const Home = () => {
                     1000,
                     "Aspiring Full-Stack Dev",
                     1000,
-                    "Ethusiastic Dev",
+                    "Enthusiastic Dev",
                     1000,
                   ]}
                 />
