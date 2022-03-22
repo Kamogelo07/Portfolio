@@ -130,4 +130,7 @@
   .menu-nav-default a {
     visibility: hidden;
   }
+  .menu-nav > a > li {
+    font-size: 15px;
+  }
 }

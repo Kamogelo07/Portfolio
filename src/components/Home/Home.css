@@ -23,13 +23,13 @@
   color: var(--dark-blue);
 }
 
-@media all and (max-width: 480px) {
+@media all and (max-width: 500px) {
   .primary-text,
   .profile-role-tagline {
-    font-size: 20px;
+    font-size: 15px;
   }
 
   .home-container {
-    height: 40vh;
+    height: 80vh;
   }
 }

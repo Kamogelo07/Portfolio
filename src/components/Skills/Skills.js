@@ -5,7 +5,7 @@ import "./Skills.css";
 export default function Skills() {
   return (
     <section id="skills">
-      <div className="container px-5 py-10 mx-auto">
+      <div className="skills-container">
         <div className="text-center mb-20">
           <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
             Skills &amp; Technologies

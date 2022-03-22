@@ -30,3 +30,12 @@
   color: var(--dark-blue);
   transition: all 0.8s ease-in;
 }
+
+@media all and (max-width: 500px) {
+  .contact-container {
+    font-size: 10px;
+  }
+  #contacts {
+    height: 50vh;
+  }
+}
