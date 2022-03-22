@@ -8,13 +8,11 @@ export default function Contact() {
       <section id="contacts">
         <div className="contact-container">
           <h2>Contact Me</h2>
-          <a
-            className="resume-btn"
-            href={resume}
-            download="01KamogeloJoyLetsoalo_Resume"
-          >
-            Resume
-          </a>
+          <button className="resume-btn">
+            <a href={resume} download="01KamogeloJoyLetsoalo_Resume">
+              Resume
+            </a>
+          </button>
           <div className="icons">
             <a
               className="icons-a"

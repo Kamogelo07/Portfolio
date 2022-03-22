@@ -96,7 +96,8 @@
   color: aliceblue;
 }
 
-.menu-nav > li:hover {
+.menu-nav > li:hover,
+.menu-nav > a > li:hover {
   transition: 0.5s ease-in;
   color: var(--dark-blue);
 }
