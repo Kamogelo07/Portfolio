@@ -19,28 +19,18 @@ const Navbar = () => {
       <nav className={"nav-default"}>
         <ul className="menu-nav-default">
           <a href="#home">
-            {/* className="nav-a" to="/"> */}
             <li>Home</li>
           </a>
 
           <a href="#projects">
-            {/* className="nav-a" to="/projects">*/}
-
             <li>Projects</li>
           </a>
 
           <a href="#skills">
-            {/* className="nav-a" to="/skills"> */}
             <li>Skills</li>
           </a>
 
-          {/* <a href="#API">
-              className="nav-a" to="/api"> 
-            <li>API</li>
-          </a> */}
-
           <a href="#contacts">
-            {/*className="nav-a" to="#contacts"> */}
             <li>Contact Me</li>
           </a>
         </ul>
@@ -50,28 +40,18 @@ const Navbar = () => {
         <div className="nav-branding"> </div>
         <ul className="menu-nav">
           <a href="#home" onClick={toggleMenu}>
-            {/* onClick={toggleMenu} className="nav-a" to="/"> */}
             <li>Home</li>
           </a>
 
           <a href="#projects" onClick={toggleMenu}>
-            {/*onClick={toggleMenu} className="nav-a" to="/projects">*/}
-
             <li>Projects</li>
           </a>
 
           <a href="#skills" onClick={toggleMenu}>
-            {/* onClick={toggleMenu} className="nav-a" to="/skills"> */}
             <li>Skills</li>
           </a>
 
-          {/* <a href="#API">
-             onClick={toggleMenu} className="nav-a" to="/api"> 
-            <li>API</li>
-          </a> */}
-
           <a href="#contacts" onClick={toggleMenu}>
-            {/* onClick={toggleMenu} className="nav-a" to="#contacts"> */}
             <li>Contact Me</li>
           </a>
         </ul>

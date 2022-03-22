@@ -10,32 +10,33 @@ const Home = () => {
           <div className="profile-details-name">
             <span className="primary-text">
               Hello, I'm{" "}
-              <span className="highlighted-text">Kamogelo Joy Letsoalo</span>,
+              <span className="highlighted-text">Kamogelo Joy Letsoalo</span>{" "}
+              and I'm
             </span>
             <br />
             <span className="profile-role-tagline">
-              Passionate about{" "}
-              <span className="highlighted-text">Web App Development</span>
+              passionate about{" "}
+              <span className="highlighted-text">Web App Development</span>.
             </span>
           </div>
 
           <div className="profile-details-role">
             <span className="primary-text">
-              <h1>
+              <h2>
                 <Typical
                   loop={Infinity}
                   steps={[
-                    "Ethusiastic Dev",
-                    1000,
-                    "Aspiring Full Stack Developer",
-                    1000,
                     "Bsc IT Graudate",
                     1000,
-                    "React Dev",
+                    "Front-End Dev",
+                    1000,
+                    "Aspiring Full-Stack Dev",
+                    1000,
+                    "Ethusiastic Dev",
                     1000,
                   ]}
                 />
-              </h1>
+              </h2>
             </span>
           </div>
         </div>
