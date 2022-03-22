@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: space-between;
   padding: 4rem;
-  height: 100vh;
+  height: 80vh;
   text-align: center;
   align-content: center;
   background-color: rgb(170, 175, 247);
@@ -21,4 +21,15 @@
 
 .highlighted-text {
   color: var(--dark-blue);
+}
+
+@media all and (max-width: 480px) {
+  .primary-text,
+  .profile-role-tagline {
+    font-size: 20px;
+  }
+
+  .home-container {
+    height: 25vh;
+  }
 }

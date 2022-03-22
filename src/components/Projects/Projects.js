@@ -11,7 +11,8 @@ export default function Projects() {
             Apps I've Built
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            I've build 3 application so far
+            I have create two JavaScript projects and one React app project thus
+            far for my protfolio.
           </p>
         </div>
         <div className="grid-projects">
@@ -27,9 +28,6 @@ export default function Projects() {
                   <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
                     {project.title}
                   </h2>
-                  <h1 className="title-font text-lg font-medium text-white mb-3">
-                    {project.subtitle}
-                  </h1>
                   <p className="leading-relaxed">{project.description}</p>
                 </div>
               </div>

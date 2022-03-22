@@ -14,7 +14,7 @@ const Home = () => {
             </span>
             <br />
             <span className="profile-role-tagline">
-              Passionate about web app development
+              Passionate about Web App Development
             </span>
           </div>
 
@@ -26,9 +26,9 @@ const Home = () => {
                   steps={[
                     "Ethusiastic Dev",
                     1000,
-                    "Full Stack Developer",
+                    "Aspiring Full Stack Developer",
                     1000,
-                    "MERN Stack Dev",
+                    "Bsc IT Graudate",
                     1000,
                     "React Dev",
                     1000,

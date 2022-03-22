@@ -12,6 +12,7 @@
 .grid-projects {
   /* height: 40vh; height to 100vh when adding more projects */
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   text-align: center;
   align-content: center;
@@ -24,16 +25,17 @@
 
 .grid-child {
   width: 230px;
-  height: 325px;
+  height: 250px;
   margin-left: 15px;
   margin-top: 15px;
   padding: 1rem;
-  box-shadow: 15px 10px 30px 1px #2d3fe4;
+  box-shadow: 1px 1px 1px 1px #2d3fe4;
 }
 
 .grid-child:hover {
   color: var(--dark-blue);
   transition: 0.5s ease-in;
+  box-shadow: 15px 10px 30px 1px #2d3fe4;
 }
 
 /* Media Queries for responsiveness */
