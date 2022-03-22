@@ -30,9 +30,9 @@ const Home = () => {
                     1000,
                     "Front-End Dev",
                     1000,
-                    "Aspiring Full-Stack Dev",
-                    1000,
                     "Enthusiastic Dev",
+                    1000,
+                    "An aspiring Full-Stack Dev",
                     1000,
                   ]}
                 />

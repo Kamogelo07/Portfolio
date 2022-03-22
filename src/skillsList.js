@@ -1,16 +1,17 @@
 export const skillsList = [
   {
-    title: "C#, JavaScrpit, HTML, CSS, ASP.NET, SQL",
+    title:
+      "C#, JavaScript, HTML, CSS, React.JS , ASP.NET, SQL, SSAS, SSIS, MVC. ",
   },
   {
-    title: "Version control tools, GitHub",
+    title: "Version control: GitHub.",
   },
   {
-    title: "I work well in a team and well under pressure",
+    title: "I work well in a team and well under pressure.",
   },
   {
     title:
-      "I am an analytical and critical thinker as well as a good problem solver",
+      "I am an analytical and critical thinker as well as a good problem solver.",
   },
   // {
   //   title: "Epic Todo App",
