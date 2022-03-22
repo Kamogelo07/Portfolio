@@ -26,7 +26,7 @@ const Home = () => {
                 <Typical
                   loop={Infinity}
                   steps={[
-                    "Bsc IT Graudate",
+                    "Bsc IT Graduate",
                     1000,
                     "Front-End Dev",
                     1000,
