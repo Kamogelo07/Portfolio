@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: space-between;
   padding: 4rem;
-  height: 100vh;
+  height: 50vh;
   text-align: center;
   background-color: rgb(123, 131, 241);
   color: var(--white);
@@ -32,6 +32,15 @@
 }
 
 @media all and (max-width: 500px) {
+  .contact-container {
+    font-size: 10px;
+  }
+  #contacts {
+    height: 50vh;
+  }
+}
+
+@media all and (max-width: 540px) {
   .contact-container {
     font-size: 10px;
   }

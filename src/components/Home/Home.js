@@ -14,7 +14,8 @@ const Home = () => {
             </span>
             <br />
             <span className="profile-role-tagline">
-              Passionate about Web App Development
+              Passionate about{" "}
+              <span className="highlighted-text">Web App Development</span>
             </span>
           </div>
 

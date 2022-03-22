@@ -33,3 +33,14 @@
     height: 80vh;
   }
 }
+
+@media all and (max-width: 540px) {
+  .primary-text,
+  .profile-role-tagline {
+    font-size: 15px;
+  }
+
+  .home-container {
+    height: 80vh;
+  }
+}
